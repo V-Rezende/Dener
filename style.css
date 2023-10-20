@@ -1,0 +1,304 @@
+.container-fluid a {
+  padding: 6px 12px;
+}
+
+.navbarNav a {
+  /* float: right; */
+  display: inline;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px 12px;
+}
+.header {
+  background: #272829;
+  color: whitesmoke;
+  padding: 0;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile img {
+  padding-left: 20px;
+  height: 400px;
+  width: auto;
+}
+
+.title {
+  padding: 80px 200px;
+  float: right;
+  text-align: center;
+}
+
+.h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #ffd95a;
+  font-style: italic;
+  font-size: 90px;
+}
+
+.h2 {
+  font-style: italic;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.title-section {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+/* About */
+
+.section-about {
+  background: #61677a;
+  color: #000000;
+  height: 300px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.about-img-right {
+  padding-right: 75px;
+}
+
+.about-left {
+  float: left;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+/* Life */
+
+.section-life {
+  background: #d8d9da;
+  color: #000000;
+  height: 300px;
+}
+
+.life-img-left {
+  padding-left: 75px;
+}
+
+.life-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.life-right {
+  float: left;
+  align-items: center;
+  padding: 25px 100px;
+}
+
+/* Career */
+
+.section-career {
+  background: #fff6e0;
+  color: #000000;
+  height: 1900px;
+}
+
+.career-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portuguesa {
+  display: flex;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.logo-portuguesa-left img {
+  height: 60px;
+  width: 50px;
+}
+
+.career-portuguesa-middle {
+  justify-content: center;
+  padding: 50px;
+}
+
+.img-portuguesa-right img {
+  height: 250px;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+}
+
+.gremio {
+  display: flex;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.img-gremio-left img {
+  height: 250px;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+}
+
+.career-gremio-middle {
+  justify-content: center;
+  padding: 50px;
+}
+
+.logo-gremio-right img {
+  height: 65px;
+  width: 55px;
+}
+
+.portuguesa2 {
+  display: flex;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.logo-portuguesa2-left img {
+  height: 60px;
+  width: 50px;
+}
+
+.career-portuguesa2-middle {
+  justify-content: center;
+  padding: 50px;
+}
+
+.img-portuguesa2-right img {
+  height: 220px;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+}
+
+.vasco {
+  display: flex;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.img-vasco-left img {
+  height: 300px;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+}
+
+.career-vasco-middle {
+  justify-content: center;
+  padding: 50px;
+}
+
+.logo-vasco-right img {
+  height: 65px;
+  width: 55px;
+}
+
+.seleção {
+  display: flex;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.logo-seleção-left img {
+  height: 70px;
+  width: 60px;
+}
+
+.career-seleção-middle {
+  justify-content: center;
+  padding: 60px;
+}
+
+.img-seleção-right img {
+  height: 220px;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+}
+
+/* The End */
+
+.section-the-end {
+  background: #e7e7e6;
+  color: #000000;
+  height: 600px;
+  padding: 20px 40px;
+}
+
+.the-end-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.the-end-img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.the-end-img img {
+  height: 250px;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+}
+
+.the-end-right {
+  flex: 2;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Footer */
+
+footer {
+  background: #000000;
+  color: whitesmoke;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.homenagem {
+  height: 100px;
+  width: auto;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 0 0 5px rgba(200, 200, 200, 0.285);
+}
+
+blockquote {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.author {
+  font-size: small;
+  margin-top: 10px;
+}
+
