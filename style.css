@@ -10,6 +10,7 @@
   text-decoration: none;
   padding: 6px 12px;
 }
+
 .header {
   background: #272829;
   color: whitesmoke;
@@ -27,7 +28,7 @@
 }
 
 .title {
-  padding: 80px 200px;
+  padding: 80px 380px;
   float: right;
   text-align: center;
 }
@@ -37,6 +38,7 @@
   color: #ffd95a;
   font-style: italic;
   font-size: 90px;
+  text-align: center;
 }
 
 .h2 {
@@ -301,4 +303,272 @@ blockquote {
   font-size: small;
   margin-top: 10px;
 }
+
+/*
+@media (min-width: 820px) {
+  .navbarNav a {
+  
+  display: inline;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px 12px;
+  position: relative;
+  right: 20px;
+  } 
+  
+  .title {
+  padding: 40px 80px;
+  text-align: center;
+  }
+
+  .h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #ffd95a;
+    font-style: italic;
+    font-size: 90px;
+    text-align: center;
+  }
+
+  .h2 {
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .section-about {
+    background: #61677a;
+    color: #000000;
+    height: 300px;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .about-left {
+    float: left;
+    align-items: center;
+    padding: 20px 60px;
+  }
+  .section-life {
+  background: #d8d9da;
+  color: #000000;
+  height: 300px;
+  }
+
+  .life-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .life-right {
+    float: left;
+    align-items: center;
+    padding: 10px 50px;
+  }
+
+    .section-career {
+    background: #fff6e0;
+    color: #000000;
+    height: auto;
+
+  }
+
+  .career-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .portuguesa {
+    display: block;
+    align-items: center;
+    padding: 5px 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+  }
+
+  .logo-portuguesa-left img {
+    margin: 0;
+    position: relative;
+    left: 340px;
+    height: 60px;
+    width: 50px;
+  }
+
+  .career-portuguesa-middle {
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    
+  }
+
+  .img-portuguesa-right img {
+    position: relative;
+    left: 160px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+  }
+
+  .gremio {
+    display: block;
+    align-items: center;
+    padding: 5px 40px;
+    border-bottom: 1px solid gray;
+  }
+
+  .logo-gremio-right img {
+    position: relative;
+    left: 340px;
+    height: 65px;
+    width: 55px;
+    margin-bottom: 15px;
+  }
+
+  .img-gremio-left img {
+    margin-top: 20px;
+    position: relative;
+    left: 220px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+  }
+
+  .career-gremio-middle {
+    justify-content: center;
+    padding: 20px 0;
+    text-align: justify;
+  }
+
+  .portuguesa2 {
+    display: block;
+    align-items: center;
+    padding: 5px 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+  }
+
+  .logo-portuguesa2-left img {
+    margin-top: 15px;
+    position: relative;
+    left: 340px;
+    height: 60px;
+    width: 50px;
+  }
+
+  .career-portuguesa2-middle {
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .img-portuguesa2-right img {
+    position: relative;
+    left: 160px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+  }
+
+  .vasco {
+    display: block;
+    align-items: center;
+    padding: 5px 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+  }
+
+  .img-vasco-left img {
+    position: relative;
+    left: 275px;
+    margin-top: 20px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+  }
+
+  .career-vasco-middle {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .logo-vasco-right img {
+    margin-top: 15px;
+    position: relative;
+    left: 340px;
+    height: 60px;
+    width: 50px;
+  }
+
+  .seleção {
+    display: block;
+    align-items: center;
+    padding: 5px 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+  }
+
+  .logo-seleção-left img {
+    margin-top: 15px;
+    position: relative;
+    left: 330px;
+    height: 75px;
+    width: 65px;
+  }
+
+  .career-seleção-middle {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .img-seleção-right img {
+    position: relative;
+    left: 200px;
+    height: 220px;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+  } 
+
+  .section-the-end {
+  background: #e7e7e6;
+  color: #000000;
+  height: auto;
+  padding: 20px 40px;
+  }
+
+  .the-end-container {
+    display: block;
+    align-items: center;
+    padding: 5px 40px;
+    padding-bottom: 30px;
+  }
+
+  .the-end-img img {
+    position: relative;
+    right: 125px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+  }
+
+  .the-end-right {
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+  }
+}
+*/
 
