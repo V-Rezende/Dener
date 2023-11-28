@@ -115,7 +115,7 @@ h2 {
 .section-career {
   background: #fff6e0;
   color: #000000;
-  height: 1900px;
+  height: auto;
 }
 
 .career-container {
@@ -238,7 +238,7 @@ h2 {
 .section-the-end {
   background: #e7e7e6;
   color: #000000;
-  height: 600px;
+  height: auto;
   padding: 20px 40px;
 }
 
